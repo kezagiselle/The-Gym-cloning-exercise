@@ -34,7 +34,7 @@
             border-radius: 4px;
         }
         .background-image {
-            background-image: url('../The-Gym-cloning-exercise/clone-Images/reservations-background.jpg');
+            background-image: url('./clone-Images/reservations-background.jpg');
             background-size: cover;
             background-position: center;
             height: 600px;
