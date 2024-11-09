@@ -45,7 +45,7 @@
   .reservations {
     min-height: 600px;
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), no-repeat url("./images/reservations-background.jpg") center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), no-repeat url("./clone-Images/reservations-background.jpg") center/cover;
     backdrop-filter: opacity(0.8);
   }
   
