@@ -1,156 +1,873 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>FeWo-direkt</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+<html>
 
-        <div class="navbar">
-            <div class="logo">feWo-direkt</div>
-            <div class="nav-links">
-                <button>Download the App</button>
-                <a href="#">Travel Planner</a>
-                <a href="#">Registration Accommodation</a>
-                <a href="#">Help</a>
-                <a href="#">My Travels</a>
-                <a href="#">Register</a>
-            </div>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Fewo-Direkt</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' href='./main.css'>
+</head>
+
+<body>
+  <header class="container">
+    <nav class="header">
+      <h3 class="logo">FeWo-direkt®</h3>
+      <ul class="header-nav">
+        <li>App herunterladen</li>
+        <li>Reiseplaner</li>
+        <li>Unterkunft registrieren</li>
+        <li>Hilfe</li>
+        <li>Meine Reisen</li>
+      </ul>
+    </nav>
+  </header>
+  <aside class="reservations">
+    <div class="container reservations-container">
+      <h2>Alles gut, du buchst bei FeWo-direkt</h2>
+      <form class="reservations-form">
+        <div>
+          <input placeholder="Wo soll’s hingehen?" />
         </div>
-        <div class="background-image"> Everything is fine, you book with FeWo-direkt</div>
-        <h2 class="header">Find accommodations to suit your taste</h2>
-
-        <div class="image-gallery">
-            <div class="image-item">
-                <!-- <img src="../The-Gym-cloning-exercise/clone-Images/property-types/apartment-condo.jpg" alt="Accommodation 1"> -->
-                <img src="./clone-Images/property-types/apartment-condo.jpg" alt="Accommodation 1">
-                <p class="image-name">holiday home</p>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/property-types/cabin.jpg" alt="Accommodation 2">
-                <p class="image-name">holiday apartment</p>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/property-types/villa.jpg" alt="Accommodation 3">
-                <p class="image-name">holiday cottage</p>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/property-types/cottage.jpg" alt="Accommodation 4">
-                <p class="image-name">country house</p>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/property-types/holiday-home.jpg" alt="Accommodation 5">
-                <p class="image-name">villa</p>
-            </div>
+        <div>
+          <input placeholder="Daten" />
         </div>
-        <h1>Browse Weekend Trips</h1>
-        <h2>Offers for the period: 13 Dec. – 15 Dec.</h2>
-
-        <div class="image-gallery">
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/destinations/barcelona.jpg" alt="Accommodation 1">
-                <div class="image-info">
-                    <p>10.0</p>
-                    <p>10.0 out of 10 rating</p>
-                    <p>Unusual</p>
-                    <p>(109 reviews)</p>
-                    <p>Detached holiday home in the Eifel</p>
-                    <p>Dahlem, North Rhine-Westphalia</p>
-                    <p>The price is 216 €.</p>
-                    <p><strong>216 €</strong></p>
-                    <p>for 2 nights</p>
-                    <p>108 € per night</p>
-                    <p>incl. taxes & fees</p>
-                </div>
-            </div>
-
-        
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/destinations/barcelona.jpg" alt="Accommodation 2">
-                <div class="image-info">
-                    <p>10.0</p>
-                    <p>10.0 out of 10 rating</p>
-                    <p>Unusual</p>
-                    <p>(109 reviews)</p>
-                    <p>Detached holiday home in the Eifel</p>
-                    <p>Dahlem, North Rhine-Westphalia</p>
-                    <p>The price is 216 €.</p>
-                    <p><strong>216 €</strong></p>
-                    <p>for 2 nights</p>
-                    <p>108 € per night</p>
-                    <p>incl. taxes & fees</p>
-                </div>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/destinations/berlin.jpg" alt="Accommodation 2">
-                <div class="image-info">
-                    <p>10.0</p>
-                    <p>10.0 out of 10 rating</p>
-                    <p>Unusual</p>
-                    <p>(109 reviews)</p>
-                    <p>Detached holiday home in the Eifel</p>
-                    <p>Dahlem, North Rhine-Westphalia</p>
-                    <p>The price is 216 €.</p>
-                    <p><strong>216 €</strong></p>
-                    <p>for 2 nights</p>
-                    <p>108 € per night</p>
-                    <p>incl. taxes & fees</p>
-                </div>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/destinations/den-haag.jpg" alt="Accommodation 2">
-                <div class="image-info">
-                    <p>10.0</p>
-                    <p>10.0 out of 10 rating</p>
-                    <p>Unusual</p>
-                    <p>(109 reviews)</p>
-                    <p>Detached holiday home in the Eifel</p>
-                    <p>Dahlem, North Rhine-Westphalia</p>
-                    <p>The price is 216 €.</p>
-                    <p><strong>216 €</strong></p>
-                    <p>for 2 nights</p>
-                    <p>108 € per night</p>
-                    <p>incl. taxes & fees</p>
-                </div>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/destinations/london.jpg" alt="Accommodation 2">
-                <div class="image-info">
-                    <p>10.0</p>
-                    <p>10.0 out of 10 rating</p>
-                    <p>Unusual</p>
-                    <p>(109 reviews)</p>
-                    <p>Detached holiday home in the Eifel, allergy-friendly wooden construction.</p>
-                    <p>Dahlem, North Rhine-Westphalia</p>
-                    <p>The price is <span class="price">216 €</span>.</p>
-                    <p><strong><span class="price">216 €</span></strong></p>
-                    <p>for 2 nights</p>
-                    <p><span class="price">108 € per night</span></p>
-                    <p>incl. taxes & fees</p>
-                </div>
-            </div>
-            <div class="image-item">
-                <img src="../The-Gym-cloning-exercise/clone-Images/destinations/oslo.jpg" alt="Accommodation 2">
-                <div class="image-info">
-                    <p>10.0</p>
-                    <p>10.0 out of 10 rating</p>
-                    <p>Unusual</p>
-                    <p>(109 reviews)</p>
-                    <p>Detached holiday home in the Eifel,</p>
-                    <p>Dahlem, North Rhine-Westphalia</p>
-                    <p>The price is 216 €.</p>
-                    <p><strong>216 €</strong></p>
-                    <p>for 2 nights</p>
-                    <p>108 € per night</p>
-                    <p>incl. taxes & fees</p>
-                </div>
-            </div>
-            
-            <!-- Repeat for image3, image4, image5 -->
+        <div>
+          <input placeholder="2 Resiende" />
         </div>
-    </body>
-    
+        <button>Suchen</button>
+      </form>
+    </div>
+  </aside>
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Beliebte Reiseziele</h3>
+    </div>
+    <div class="scroller">
+      <div class="section-items">
+        <div class="card">
+          <img width="264" height="120" src="./clone-Images/destinations/amsterdam.jpg" alt="Amsterdam" />
+          <span class="subtitle">
+            Amsterdam
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./clone-Images/destinations/london.jpg" alt="London" />
+          <span class="subtitle">
+            London
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/paris.jpg" alt="Paris" />
+          <span class="subtitle">
+            Paris
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/barcelona.jpg" alt="Barcelona" />
+          <span class="subtitle">
+            Barcelona
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/maastricht.jpg" alt="Maastricht" />
+          <span class="subtitle">
+            Maastricht
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/utrecht.jpg" alt="Utrecht" />
+          <span class="subtitle">
+            Utrecht
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/den-haag.jpg" alt="Den Haag" />
+          <span class="subtitle">
+            Den Haag
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/oslo.jpg" alt="Oslo" />
+          <span class="subtitle">
+            Oslo
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/rotterdam.jpg" alt="Rotterdam" />
+          <span class="subtitle">
+            Rotterdam
+          </span>
+        </div>
+        <div class="card">
+          <img width="264" height="120" src="./images/destinations/berlin.jpg" alt="Berlin" />
+          <span class="subtitle">
+            Berlin
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Finde Unterkünfte ganz nach deinem Geschmack</h3>
+    </div>
+    <div class="scroller">
+      <div class="section-items">
+        <div class="poster-card">
+          <img src="./images/property-types/holiday-home.jpg" alt="Ferienhaus" />
+          <span class="subtitle">
+            Ferienhaus
+          </span>
+        </div>
+        <div class="poster-card">
+          <img src="./images/property-types/apartment-condo.jpg" alt="Ferienwohnung/Apartment" />
+          <span class="subtitle">
+            Ferienwohnung/Apartment
+          </span>
+        </div>
+        <div class="poster-card">
+          <img src="./images/property-types/cabin.jpg" alt="Ferienhütte" />
+          <span class="subtitle">
+            Ferienhütte
+          </span>
+        </div>
+        <div class="poster-card">
+          <img src="./images/property-types/cottage.jpg" alt="Landhaus" />
+          <span class="subtitle">
+            Landhaus
+          </span>
+        </div>
+        <div class="poster-card">
+          <img src="./images/property-types/villa.jpg" alt="Villa" />
+          <span class="subtitle">
+            Villa
+          </span>
+        </div>
+        <div class="poster-card">
+          <img src="./images/property-types/chalet.jpg" alt="Chalet" />
+          <span class="subtitle">
+            Chalet
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Stöbere in Wochenendtrips</h3>
+      <span>Angebote für den Zeitraum: <b>13. Dez.–15. Dez.</b></span>
+    </div>
+    <div class="scroller">
+      <div class="section-items">
+        <div class="place-card">
+          <img src="./images/rooms/one.avif" alt="Wohnbereich">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(111 Bewertungen)</span>
+          </div>
+          <div class="description">
+            100% legale Marais 2BR / 2BA mit AC, bis zu 6 Gäste
+          </div>
+          <div class="location">Paris, Ile-De-France</div>
+          <div class="price">
+            <div class="amount">2.393 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>1.197 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/two.jpg" alt="Speisen im Freien">
+          <div class="ratings">
+            <span class="rating">9,8</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(174 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Nahe Disneyland / Paris - Ruhiges Haus - Ideal für einen Familienaufenthalt
+          </div>
+          <div class="location">Guérard, Ile-De-France</div>
+          <div class="price">
+            <div class="amount">247 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>123 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/three.avif" alt="Speisen im Freien">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(267 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Ferienhaus - 5 Personen - Etretat Zentrum
+          </div>
+          <div class="location">Étretat, Normandie</div>
+          <div class="price">
+            <div class="amount">313 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>157 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/four.jpg" alt="Außenansicht">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(109 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Freistehendes Ferienhaus in der Eifel, allergikerfreundliche Holzbauweise.
+          </div>
+          <div class="location">Dahlem, North Rhine-Westphalia</div>
+          <div class="price">
+            <div class="amount">216 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>108 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/five.avif" alt="Unterkunftsgelände">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(167 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Meet with unusual… you will experience a change of scene!
+          </div>
+          <div class="location">Tendon, Grand Est</div>
+          <div class="price">
+            <div class="amount">467 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>233 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/six.avif" alt="Das Ferienhaus">
+          <div class="ratings">
+            <span class="rating">9,6</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(117 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Schönes Ferienhaus Haustiere erlaubt Wandern Ausflüge Badeseen Ritterspiele Golf
+          </div>
+          <div class="location">Mechernich, NRW</div>
+          <div class="price">
+            <div class="amount">196 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>98 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/seven.avif" alt="Unser Motto">
+          <div class="ratings">
+            <span class="rating">9,8</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(108 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Kleinod in idyllischer Waldrandlage
+          </div>
+          <div class="location">Greven, NRW</div>
+          <div class="price">
+            <div class="amount">242 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>121 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms/eight.webp" alt="Außenbereich">
+          <div class="ratings">
+            <span class="rating">9,8</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(111 Bewertungen)</span>
+          </div>
+          <div class="description">
+            Großer Vogesenhof inmitten der Natur zwischen Straßburg und Colmar
+          </div>
+          <div class="location">Lalaye, Grand Est</div>
+          <div class="price">
+            <div class="amount">1.298 €</div>
+            <div class="terms">
+              <div>für 2 Nächte</div>
+              <div>649 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="cover-cards">
+      <div class="cover-card">
+        <img src="./images/featured/one.avif" alt="Featured One">
+        <div class="subtitle">SONNIGE UNTERKÜNFTE AM WASSER</div>
+        <div class="title">Genieße mit deiner Clique sonnige Tage am Wasser</div>
+      </div>
+      <div class="cover-card">
+        <img src="./images/featured/two.avif" alt="Featured Two">
+        <div class="subtitle">DIE REISETRENDS FÜR 2025</div>
+        <div class="title">Die angesagten Reiseziele und Unterkünfte für 2025</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Ferienhäuser des Jahres 2024</h3>
+      <span>Außergewöhnliche Ferienunterkünfte für unvergessliche Gruppenreisen</span>
+      <span>Angebote für den Zeitraum: <b>10. Jan.–13. Jan.</b></span>
+    </div>
+    <div class="scroller">
+      <div class="section-items">
+        <div class="place-card">
+          <img src="./images/rooms2/one.avif" alt="Außenbereich">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(56 Bewertungen)</span>
+          </div>
+          <div class="description">Exquisite Wine Country Villa, Weingut und Weinkeller, Villa Montebella</div>
+          <div class="location">Glen Ellen, CA</div>
+          <div class="price">
+            <div class="amount">14.550 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>4.850 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/two.avif" alt="Pool">
+          <div class="ratings">
+            <span class="rating">9,8</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(8 Bewertungen)</span>
+          </div>
+          <div class="description">Mas 5* with stones, heart of the Alpilles - Superb view - Pool and Jacuzzi</div>
+          <div class="location">Les Baux-de-Provence</div>
+          <div class="price">
+            <div class="amount">2.569 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>856 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/three.webp" alt="Eigene Küche">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(25 Bewertungen)</span>
+          </div>
+          <div class="description">Idyllisches Cottage mit Reh</div>
+          <div class="location">Wörthsee, BY</div>
+          <div class="price">
+            <div class="amount">782 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>261 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/four.avif" alt="Außenbereich">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(27 Bewertungen)</span>
+          </div>
+          <div class="description">Welcome to Falcon's Nest, your 6 bedroom luxury all-season cottage retreat nestled on Lake Muskoka</div>
+          <div class="location">Bala, Ontario</div>
+          <div class="price">
+            <div class="amount">8.115 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>2.705 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/five.avif" alt="Speisen im Freien">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(11 Bewertungen)</span>
+          </div>
+          <div class="description">The Easton at Maleny - Hamptons Countryside Retreat</div>
+          <div class="location">Maleny, QLD</div>
+          <div class="price">
+            <div class="amount">3.478 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>1.159 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/six.avif" alt="Außenbereich">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(13 Bewertungen)</span>
+          </div>
+          <div class="description">2024 TOP 10 VACATION HOME IN THE US! 5 beds, pickleball, hot tub, gym and more!</div>
+          <div class="location">Sand Lake, MI</div>
+          <div class="price">
+            <div class="amount">3.879 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>1.293 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/seven.avif" alt="Wohnbereich">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(1 Bewertung)</span>
+          </div>
+          <div class="description">The Stowaway | Tuckers Beach | Hot Tub | Luxury</div>
+          <div class="location">Queenstown Hill, Otago</div>
+          <div class="price">
+            <div class="amount">2.646 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>882 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/eight.avif" alt="Außenbereich">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(22 Bewertungen)</span>
+          </div>
+          <div class="description">Enjoy a Luxe Riverfront Retreat at Miracle Creek</div>
+          <div class="location">Epworth, GA</div>
+          <div class="price">
+            <div class="amount">3.251 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>1.084 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/nine.webp" alt="Pool">
+          <div class="ratings">
+            <span class="rating">9,8</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(178 Bewertungen)</span>
+          </div>
+          <div class="description">Luxus-Villa für 22 Personen mit Pool, Jacuzzi, großer Garten und privatem Pub!</div>
+          <div class="location">Wimborne, England</div>
+          <div class="price">
+            <div class="amount">5.730 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>1.910 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="place-card">
+          <img src="./images/rooms2/ten.avif" alt="Pool">
+          <div class="ratings">
+            <span class="rating">10,0</span>
+            <span class="ratings-label">Außergewöhnlich</span>
+            <span class="ratings-count">(39 Bewertungen)</span>
+          </div>
+          <div class="description">Palatial Paradise with Breathtaking Views of Red Rock and Stunning Infinity Pool</div>
+          <div class="location">Sedona, AZ</div>
+          <div class="price">
+            <div class="amount">5.551 €</div>
+            <div class="terms">
+              <div>für 3 Nächte</div>
+              <div>1.850 € pro Nacht</div>
+              <div>inkl. Steuern & Gebühren</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Lass dich zu deiner Familienreise inspirieren</h3>
+    </div>
+    <div class="cover-cards">
+      <div class="cover-card">
+        <img src="./images/featured2/one.jpeg" alt="Featured One">
+        <div class="subtitle">FAMILIENURLAUB 2024</div>
+        <div class="title">In Strandnähe</div>
+      </div>
+      <div class="cover-card">
+        <img src="./images/featured2/two.jpg" alt="Featured Two">
+        <div class="subtitle">DIE GANZE FAMILIE</div>
+        <div class="title">Haustiere willkommen</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="cover-cards">
+      <div class="cover-card">
+        <img src="./images/featured3/one.avif" alt="Featured One">
+        <div class="subtitle">BELIEBTE ANNEHMLICHKEITEN</div>
+        <div class="title">Pools</div>
+      </div>
+      <div class="cover-card">
+        <img src="./images/featured3/two.avif" alt="Featured Two">
+        <div class="subtitle">GENÜGEND PLATZ FÜR ALLE</div>
+        <div class="title">Mehr als drei Schlafzimmer</div>
+      </div>
+      <div class="cover-card">
+        <img src="./images/featured3/three.avif" alt="Featured Three">
+        <div class="subtitle">ENTSPANNT DANK FLEXIBILITÄT</div>
+        <div class="title">Ferienunterkünfte mit kostenloser Stornierung</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="section container info-cards">
+    <div class="info-card">
+      <img src="./images/icons/lock.svg" alt="Lock">
+      <h4>Einfach sorglos</h4>
+      <div>Mit unserer Mit-Vertrauen-Buchen-Garantie bieten wir dir rund um die Uhr Unterstützung</div>
+    </div>
+    <div class="info-card">
+      <img src="./images/icons/global.svg" alt="Global">
+      <h4>Mehr gemeinsame Momente</h4>
+      <div>Von der Buchung bis hin zum Aufenthalt – der gesamte Vorgang ist einfach und unkompliziert</div>
+    </div>
+    <div class="info-card">
+      <img src="./images/icons/coffee.svg" alt="Coffee">
+      <h4>Die gleiche Privatsphäre wie zu Hause</h4>
+      <div>Genieße Vorzüge wie eine voll ausgestattete Küche, Waschmaschine, Pool, Garten und mehr</div>
+    </div>
+    <div class="info-card">
+      <img src="./images/icons/money.svg" alt="Money">
+      <h4>Mehr Urlaub für weniger Geld</h4>
+      <div>Mehr Platz, mehr Privatsphäre, mehr Annehmlichkeiten – mehr Wert</div>
+    </div>
+  </div>
+
+  <div class="section container cta-section">
+    <img src="./images/cta.avif" height="476" alt="Call To Action">
+    <div class="floating">
+      <h3>Vermieten Sie Ihre Unterkunft vertrauensvoll mit FeWo-direkt</h3>
+      <div>Support in Echtzeit, schnelles und unkompliziertes Registrieren und Gäste mit positivem Feedback – bei
+        FeWo-direkt fühlt sich Gastgeben wie Urlaub an.</div>
+      <button>Unterkunft inserieren</button>
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Lass dich zu deiner Familienreise inspirieren</h3>
+    </div>
+    <div>
+      FeWo-direkt ist dein kompetenter Ansprechpartner für Urlaub in einem <a href="#">Ferienhaus</a> oder einer <a
+        href="#">Ferienwohnung</a>. Als Teil
+      von Vrbo, einem der führenden Online-Marktplätze für Ferienhausvermietungen, bietet dir FeWo-direkt mehr als zwei
+      Millionen einzigartige Unterkünfte, darunter Fincas, Bungalows, Apartments, <a href="#">Ferienhütten</a> und sogar
+      <a href="#">Villen</a>. Sichere
+      Zahlungen, Unterstützung rund um die Uhr und die Mit-Vertrauen-Buchen-Garantie machen Buchungen zum Kinderspiel.
+      Über die benutzerfreundliche Website und zahlreiche praktische Filter kannst du ohne großen Aufwand deine
+      Traumferienwohnung für dein Budget finden. So verbringst du ganz bestimmt einen unvergesslichen Urlaub, der sich
+      von der Suche über die Buchung bis hin zu Aufenthalt und Abreise ganz stressfrei gestaltet.
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Ferienwohnung oder Ferienhaus mieten: Das sind die Vorteile</h3>
+    </div>
+    <div>
+      Besonders Familien und Gruppen wissen die Vorteile von Ferienunterkünften zu schätzen: mehr Platz, mehr
+      Privatsphäre, mehr Annehmlichkeiten. Du hast mehr Flexibilität und Freiheit in deinen eigenen vier Wänden als in
+      herkömmlichen Hotels und kannst deinen Urlaub frei planen – unabhängig davon, ob du eine Städtereise machen oder
+      mit deinem <a href="#">Hund</a> inmitten der malerischen Natur abschalten möchtest. Du suchst eine gemütliche
+      Ferienhütte in den
+      Bergen mit Waschmaschine und <a href="#">Whirlpool?</a> Ein <a href="#">Strandhaus</a> am Wasser oder eine große
+      Finca im Süden mit <a href="#">Pool</a> und voll
+      ausgestatteter Küche? Kein Problem, denn Ferienunterkünfte gibt es in allen Größen und mit jeder
+      Wunschausstattung, die dir für deinen nächsten <a href="#">Familienurlaub</a>, Abenteuertrip mit Freunden oder ein
+      romantisches
+      Wochenende vorschwebt.
+    </div>
+  </div>
+
+  <div class="section container">
+    <div class="section-heading">
+      <h3>Beliebte Reiseziele</h3>
+    </div>
+    <div class="collapsibles">
+      <details>
+        <summary>
+          <h4>Top-Reiseziele</h4>
+        </summary>
+        <hr />
+        <ul>
+          <li><a href="#">Zingst Ferienwohnung</a></li>
+          <li><a href="#">Norderney Ferienwohnung</a></li>
+          <li><a href="#">Berlin Ferienwohnung</a></li>
+          <li><a href="#">Kühlungsborn Ferienwohnung</a></li>
+          <li><a href="#">Westerland Ferienwohnung</a></li>
+          <li><a href="#">Ostsee Ferienwohnung</a></li>
+          <li><a href="#">Usedom Ferienwohnung</a></li>
+          <li><a href="#">Nordsee Ferienwohnung</a></li>
+          <li><a href="#">Rügen Ferienwohnung</a></li>
+          <li><a href="#">Warnemünde Ferienwohnung</a></li>
+          <li><a href="#">Schwarzwald Ferienwohnung</a></li>
+          <li><a href="#">Scharbeutz Ferienwohnung</a></li>
+          <li><a href="#">Bayern Ferienwohnung</a></li>
+          <li><a href="#">Allgäu Ferienwohnung</a></li>
+          <li><a href="#">Deutschland Ferienwohnung</a></li>
+          <li><a href="#">Cuxhaven Ferienwohnung</a></li>
+          <li><a href="#">Harz Ferienwohnung</a></li>
+          <li><a href="#">St. Peter-Ording Ferienwohnung</a></li>
+          <li><a href="#">Sylt Ferienwohnung</a></li>
+          <li><a href="#">Hamburg Ferienwohnung</a></li>
+          <li><a href="#">Dümmer See Ferienhäuser</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h4>Weitere Top-Reiseziele</h4>
+        </summary>
+        <hr />
+        <ul>
+          <li><a href="#">Sardinien Ferienwohnung</a></li>
+          <li><a href="#">Barcelona Ferienwohnung</a></li>
+          <li><a href="#">London Ferienwohnung</a></li>
+          <li><a href="#">Teneriffa Ferienwohnung</a></li>
+          <li><a href="#">Kroatien Ferienwohnung</a></li>
+          <li><a href="#">Gardasee Ferienwohnung</a></li>
+          <li><a href="#">Dänemark Ferienwohnung</a></li>
+          <li><a href="#">Mallorca Ferienwohnung</a></li>
+          <li><a href="#">Österreich Ferienwohnung</a></li>
+          <li><a href="#">Italien Ferienwohnung</a></li>
+          <li><a href="#">Frankreich Ferienwohnung</a></li>
+          <li><a href="#">Wien Ferienwohnung</a></li>
+          <li><a href="#">Amsterdam Ferienwohnung</a></li>
+          <li><a href="#">Niederlande Ferienwohnung</a></li>
+          <li><a href="#">Kreta Ferienwohnung</a></li>
+          <li><a href="#">Ibiza Ferienwohnung</a></li>
+          <li><a href="#">Bretagne Ferienwohnung</a></li>
+          <li><a href="#">Korsika Ferienwohnung</a></li>
+          <li><a href="#">Toskana Ferienwohnung</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h4>Ferienhäuser</h4>
+        </summary>
+        <hr />
+        <ul>
+          <li><a href="#">Ferienhaus Spanien</a></li>
+          <li><a href="#">Ferienhaus Frankreich</a></li>
+          <li><a href="#">Ferienhaus Sardinien</a></li>
+          <li><a href="#">Ferienhaus Schweden</a></li>
+          <li><a href="#">Ferienhaus Portugal</a></li>
+          <li><a href="#">Ferienhaus Gardasee</a></li>
+          <li><a href="#">Ferienhaus Rügen</a></li>
+          <li><a href="#">Ferienhaus Allgäu</a></li>
+          <li><a href="#">Ferienhaus Sylt</a></li>
+          <li><a href="#">Ferienhaus Schwarzwald</a></li>
+          <li><a href="#">Ferienhaus Fehmarn</a></li>
+          <li><a href="#">Ferienhaus Nordsee</a></li>
+          <li><a href="#">Ferienhaus Österreich</a></li>
+          <li><a href="#">Ferienhaus Istrien</a></li>
+          <li><a href="#">Ferienhaus Toskana</a></li>
+          <li><a href="#">Ferienhaus Niederlande</a></li>
+          <li><a href="#">Ferienhaus Kroatien</a></li>
+          <li><a href="#">Ferienhaus Ostsee</a></li>
+          <li><a href="#">Ferienhaus Dänemark</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h4>Villen und Ferienwohnungen</h4>
+        </summary>
+        <hr />
+        <ul>
+          <li><a href="#">Ferienwohnungen auf den Balearen</a></li>
+          <li><a href="#">Ferienwohnungen in Kroatien</a></li>
+          <li><a href="#">Ferienwohnungen auf Mallorca</a></li>
+          <li><a href="#">Villen in Spanien</a></li>
+          <li><a href="#">Luxus-Fincas auf Mallorca</a></li>
+          <li><a href="#">Luxusvilla in Italien</a></li>
+          <li><a href="#">Luxus-Ferienwohnungen in Portugal</a></li>
+          <li><a href="#">Ferienwohnungen an der Algarve</a></li>
+          <li><a href="#">Villen in Griechenland</a></li>
+          <li><a href="#">Ferienwohnungen am Meer in Griechenland</a></li>
+          <li><a href="#">Ferienhaus Kos</a></li>
+          <li><a href="#">Ferienhaus Kroatien direkt am Meer</a></li>
+          <li><a href="#">Ferienhaus Korsika</a></li>
+          <li><a href="#">Ferienhaus Kroatien mit Pool</a></li>
+          <li><a href="#">Ferienhaus Griechenland</a></li>
+          <li><a href="#">Ferienhaus Mallorca mit Pool</a></li>
+          <li><a href="#">Ferienhaus Pool</a></li>
+          <li><a href="#">Ferienwohnung am Meer</a></li>
+          <li><a href="#">Finca Andalusien</a></li>
+          <li><a href="#">ferienhaus südtirol mit pool</a></li>
+          <li><a href="#">Ferienhaus mit Pool in Deutschland</a></li>
+          <li><a href="#">Meran ferienwohnung mit pool</a></li>
+          <li><a href="#">Ferienhäuser Bayern mit pool</a></li>
+          <li><a href="#">luxus ferienhaus holland</a></li>
+          <li><a href="#">ferienhaus kreta mit pool</a></li>
+          <li><a href="#">Ferienwohnung Dänemark am Strand</a></li>
+          <li><a href="#">Ferienwohnung mit pool Italien</a></li>
+          <li><a href="#">Villa mieten Deutschland</a></li>
+          <li><a href="#">Hausbooturlaub Deutschland</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h4>Urlaubsideen</h4>
+        </summary>
+        <hr />
+        <ul>
+          <li><a href="#">Familienurlaub</a></li>
+          <li><a href="#">Ferienwohnung Kanarische Inseln</a></li>
+          <li><a href="#">Haus am See</a></li>
+          <li><a href="#">Bauernhäuser mieten</a></li>
+          <li><a href="#">Kurzurlaub</a></li>
+          <li><a href="#">Kurzurlaub mit Hund</a></li>
+          <li><a href="#">Skiurlaub</a></li>
+          <li><a href="#">Städtereisen</a></li>
+          <li><a href="#">Städtereisen Europa</a></li>
+          <li><a href="#">Urlaub auf dem Bauernhof</a></li>
+          <li><a href="#">Urlaub mit Baby</a></li>
+          <li><a href="#">Urlaub mit Hund</a></li>
+          <li><a href="#">Chalet</a></li>
+          <li><a href="#">Urlaub mit Hund Ostsee</a></li>
+          <li><a href="#">Bungalow</a></li>
+          <li><a href="#">Wellness-Wochenende</a></li>
+          <li><a href="#">Norderney ferienhaus am strand</a></li>
+          <li><a href="#">Rabatte bei FeWo-direkt</a></li>
+          <li><a href="#">Monatliche ferien vermietung</a></li>
+          <li><a href="#">Woechentliche ferien vermietung</a></li>
+          <li><a href="#">Unterkuenfte</a></li>
+          <li><a href="#">Reisetrends 2025 </a></li>
+        </ul>
+      </details>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-box container">
+      <h3 class="logo">FeWo-direkt®</h3>
+      <div class="footer-grid">
+        <div>
+          <h4>FeWo-direkt erkunden</h4>
+          <ul>
+            <li><a href="#">Unterkunft inserieren</a></li>
+            <li><a href="#">Mit Vertrauen buchen</a></li>
+            <li><a href="#">Vertrauen und Sicherheit</a></li>
+            <li><a href="#">Ressourcen für Partner</a></li>
+            <li><a href="#">Ferienhäuser und Urlaubsinspiration</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Unternehmen</h4>
+          <ul>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Karriere</a></li>
+            <li><a href="#">Affiliate-Partner</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="#">Allgemeine Geschäftsbedingungen</a></li>
+            <li><a href="#">Datenschutzrichtlinien</a></li>
+            <li><a href="#">Cookie-Erklärung</a></li>
+            <li><a href="#">Melden illegaler Inhalte</a></li>
+            <li><a href="#">Rechtliche Hinweise/Kontakt</a></li>
+            <li><a href="#">Verantwortlicher Eigentümer</a></li>
+            <li><a href="#">Inhaltsrichtlinien und Melden von Inhalten</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Die Vrbo-Familie</h4>
+          <ul>
+            <li><a href="#">Vrbo</a></li>
+            <li><a href="#">Abritel.fr</a></li>
+            <li><a href="#">FeWo-direkt.de</a></li>
+            <li><a href="#">Bookabach.co.nz</a></li>
+            <li><a href="#">Stayz.com.au</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <hr />
+      </div>
+      <div class="footer-copyright">
+        © 2024 FeWo-direkt, ein Unternehmen der Expedia Group. Alle Rechte vorbehalten. FeWo-direkt und das
+        FeWo-direkt-Logo sind Handelsmarken oder eingetragene Handelsmarken von HomeAway.com, Inc.
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
